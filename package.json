@@ -1,0 +1,41 @@
+{
+  "name": "softday",
+  "version": "0.2.3",
+  "type": "module",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test:domain": "node --experimental-strip-types --test src/domain/*.test.ts"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.3",
+    "@expo/vector-icons": "latest",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "57.0.4",
+    "expo-blur": "~57.0.0",
+    "expo-document-picker": "~57.0.1",
+    "expo-file-system": "~57.0.0",
+    "expo-font": "~57.0.0",
+    "expo-haptics": "~57.0.0",
+    "expo-linear-gradient": "~57.0.0",
+    "expo-notifications": "~57.0.3",
+    "expo-secure-store": "~57.0.0",
+    "expo-sharing": "~57.0.3",
+    "expo-status-bar": "latest",
+    "expo-system-ui": "~57.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}

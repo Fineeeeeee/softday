@@ -1,0 +1,27 @@
+node_modules/
+.expo/
+dist/
+npm-debug.log*
+*.keystore
+*.mobileprovision
+
+# Generated native build output
+android/.gradle/
+android/build/
+android/app/build/
+ios/build/
+
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.p12
+
+# Local validation captures and device logs
+*.log
+/*.xml
+/*.png
+/*.jpg
+/*.jpeg
+_update-notifier-last-checked

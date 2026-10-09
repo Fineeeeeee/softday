@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Softday",
+    "slug": "softday",
+    "version": "0.2.3",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#F1F3EF",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.softday.app"
+    },
+    "android": {
+      "package": "com.softday.app",
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7F9470"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "color": "#71877A",
+          "defaultChannel": "softday-focus"
+        }
+      ],
+      "./plugins/with-softday-android-colors.cjs",
+      "./plugins/with-softday-notification-icon.cjs",
+      "expo-secure-store"
+    ]
+  }
+}

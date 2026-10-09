@@ -1,0 +1,19 @@
+<resources>
+  <color name="softday_background">#F1F3EF</color>
+  <color name="softday_surface">#FAFBF8</color>
+  <color name="softday_surface_muted">#E7EBE6</color>
+  <color name="softday_accent_soft">#DCE4DD</color>
+  <color name="softday_accent_dark">#53675B</color>
+  <color name="softday_text">#262B27</color>
+  <color name="softday_text_muted">#737B75</color>
+  <color name="softday_accent">#85988B</color>
+  <color name="softday_warm">#CBD5CC</color>
+  <color name="softday_line">#D9DED9</color>
+  <color name="softday_bar">#F0F1F3EF</color>
+  <color name="softday_danger">#835F5B</color>
+  <color name="softday_danger_soft">#EEE5E3</color>
+  <color name="softday_warm_surface">#E3E8E3</color>
+  <color name="softday_warm_text">#627068</color>
+  <color name="softday_conflict_surface">#E1E6E1</color>
+  <color name="softday_conflict_text">#5F6B63</color>
+</resources>
